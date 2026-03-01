@@ -1,5 +1,3 @@
-# AGAIN PRACTICE
-
 s = "   Hello    World   Python   "
 
 result = ""
@@ -17,9 +15,9 @@ while i < n:
         result += " "
         while i < n and s[i] == " ":
             i += 1
-        continue 
-    i += 1
+        continue
+    i += 1 
+
 if len(result) > 0 and result[-1] == " ":
     result = result [:-1]
 print(len(result))
-         
