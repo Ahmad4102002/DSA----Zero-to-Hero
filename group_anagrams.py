@@ -5,11 +5,12 @@ Output: [["hat"],["act", "cat"],["stop", "pots", "tops"]]
 
 """
 
+# AGAIN
+
+
 strs = ["act","pots","tops","cat","stop","hat"]
 
 anagrams = {}
-
-
 
 for each in strs:
     count = [0] * 26  # creating identity of letters in  a 26 0 array 
